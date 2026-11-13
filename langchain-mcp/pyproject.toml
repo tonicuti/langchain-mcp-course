@@ -7,7 +7,13 @@ authors = [
     { email = "daonguyenduylong9.219.20@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "isort>=9.0.2",
+    "langchain>=1.5.0",
+    "langchain-mcp-adapters>=0.3.2",
+    "langchain-ollama>=1.1.0",
+    "langgraph>=1.2.21",
+]
 
 [project.scripts]
 langchain-mcp = "langchain_mcp:main"
